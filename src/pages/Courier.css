@@ -1,0 +1,200 @@
+.tracker-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.header_courier {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-image: url(../Assets/BG_courier.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1fr;
+  height: initial;
+}
+
+
+.location {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.address {
+  color: #666;
+  font-size: 14px;
+
+}
+
+.tracking-section {
+  margin-bottom: 30px;
+}
+
+.tracking-input {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  gap: 10px;
+  width: 1fr;
+}
+
+.tracking-input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.shipment-section {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+.shipment-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 1fr;
+}
+
+.shipment-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shipment-details {
+  flex-grow: 1;
+}
+
+.tracking-number {
+  margin-right: 1fr;
+  font-weight: bold;
+}
+
+.date {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #666;
+}
+
+.progress-bar {
+  margin: 20px 0;
+}
+
+.progress-dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.progress-dots::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #e0e0e0;
+  width: 100%;
+  z-index: 1;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.dot.completed {
+  background-color: #4CAF50;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.from, .to {
+  color: #666;
+}
+
+.shipment-card.minimal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.courier-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+
+.courier-text {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.send-courier-btn {
+  width: 100%;
+  background-color: #ffbb00;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.nav-item span {
+  font-size: 20px;
+}

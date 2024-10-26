@@ -1,0 +1,147 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.header {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  column-span: 1px;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.back-button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.route-info {
+  font-size: 15px;
+  font-display: block;
+  padding: 10px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 9999px;
+  background-color: #fff;
+  align-items: center;
+  align-content: center;
+}
+
+.sort-label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 8px;
+  background-color: #fafafa;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+}
+.sort-label {
+    align-content: start;
+}
+
+/* Sort Buttons */
+
+.sort-container {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  /* Hide scrollbar for clean look */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sort-container::-webkit-scrollbar {
+  display: none;
+}
+
+.sort-option {
+  padding: 8px 16px;
+  border-radius: 9999px; /* Makes it fully rounded */
+  font-size: 14px;
+  white-space: nowrap;
+  border: none;
+  background-color: white;
+  color: #4b5563; /* gray-600 equivalent */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sort-option.selected {
+  background-color: #fbbf24; /* yellow-400 equivalent */
+  color: black;
+}
+
+.sort-option:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* End of Sort*/
+
+.routes-list {
+  background-color: #fff;
+}
+
+.route-item {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bus-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bus-number {
+  font-weight: 500;
+}
+
+.provider {
+  font-size: 14px;
+  color: #666;
+}
+
+.time-info {
+  text-align: right;
+}
+
+.times-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.time {
+  font-weight: 500;
+}
+
+.separator {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.duration {
+  font-size: 14px;
+  color: #666;
+}
