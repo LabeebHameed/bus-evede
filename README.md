@@ -1,95 +1,85 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# BusEvede 🎯
 
 
 ## Basic Details
-### Team Name: 
+### Team Name: Void
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Labeeb Hameed - SNM Institute of Management and Technology
+- Member 2: Vishnu KR - SNM Institute of Management and Technology
+- Member 3: Afthab Ahmed - SNM Institute of Management and Technology
 
 ### Project Description
-[2-3 lines about what your project does]
+Imagine an app that combines public transit with package delivery, offering real-time bus schedules along with a convenient courier service. It lets commuters track bus arrivals and enables senders to track packages on those buses, making transportation and delivery fast and reliable.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Finding the time of the Bus that dosn't run and sending Packages that don't need to be sent
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
+Making an App that compiles the bus route-times in to a single app that has cool animations and an incredible UI also lets the user send Couriers through the app with a VERY COST FRIENDLY DELIVERY SYSTEM.
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- JavaScript
+- React.js/native
+-   "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^11.11.10",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.453.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+- Git,VSCode,Figma
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+npm install
+npm install framer-motion
+npm install gsap
+npm install lucide
 
 # Run
-[commands]
+npm start
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Home](https://github.com/user-attachments/assets/d535b62d-703f-4ebf-bac6-9c7d00501aea)
+*This Screenshot shows the home page of the app*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Map](https://github.com/user-attachments/assets/110ed3b0-570b-4035-baab-90c7fce6e7f6)
+*This screenshot shows the map of the selected route *
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Bus List](https://github.com/user-attachments/assets/f983a71f-0e95-49d1-9828-66415fb3a8c9)
+*This screenshot shows the list of busses and their time in which it runs *
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Courier](https://github.com/user-attachments/assets/3d6fb703-5d09-4143-a153-62b9c908cc8d)
+*This screenshot shows the courier UI that tracks and lets you send courier through Local Bus*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+https://github.com/user-attachments/assets/311237d4-cafc-496a-86e7-7f3bc8daaa34
+
+*It Runs the whole app Functions.*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Labeeb Hameed: Devoloper
+- Vishnu KR: Designer
+- Afthab Ahmed: Data Collector
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
